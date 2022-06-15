@@ -1,0 +1,15 @@
+[package]
+name = "replace_bgm"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+itertools = "0.10.2"
+rand = "0.8.4"
+which = "4.2.5"
+tempfile = "3.3.0"
+serde_json = "1.0"
+ffmpeg-next = "5.0.3"
+chrono = "0.4.19"
